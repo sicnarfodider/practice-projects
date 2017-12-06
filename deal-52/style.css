@@ -1,0 +1,13 @@
+
+.game-area {
+    display: flex;
+    justify-content: center;
+}
+
+#deck, .player {
+    height: 180px;
+    width: 125px;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+}
