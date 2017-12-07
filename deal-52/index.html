@@ -8,28 +8,89 @@
     <body>
         <div class="game-area">
             <div id="deck">
-                Discard pile
-                <button>Refresh</button>
+                Discard pile: <span class='discard'></span>
+                <button class='refresh'>New Deck</button>
+                <button class='shuffle'>Shuffle</button>
             </div>
 
-            <div class="player" playerNum='1'>
-                Player 1 stack
+            <div class="player" playerNum='0'>
+                <span class='playerName'>no player</span>
+                <div class='handContainer'>
+                  <table>
+                    <tr>
+                      <td class='cardData1'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData2'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData3'></td>
+                    </tr>
+                  </table>
+                </div>
                 <button class='deal' playerNum='1'>Deal</button>
+                <button class='addPlayer'>Play</button>
+                <span class='total'></span>
             </div>
 
-            <div class="player" playerNum='2'>
-                Player 2 stack
-                <button class='deal' playerNum='3'>Deal</button>
+            <div class="player" playerNum='0'>
+                <span class='playerName'>no player</span>
+                <div class='handContainer'>
+                  <table>
+                    <tr>
+                      <td class='cardData1'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData2'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData3'></td>
+                    </tr>
+                  </table>
+                </div>
+                <button class='deal' playerNum='2'>Deal</button>
+                <button class='addPlayer'>Play</button>
+                <span class='total'></span>
             </div>
 
-            <div class="player" playerNum='3'>
-                Player 3 stack
-                <button class='deal' playerNum='3'>Deal</button>
+            <div class="player" playerNum='0'>
+                <span class='playerName'>no player</span>
+                <div class='handContainer'>
+                  <table>
+                    <tr>
+                      <td class='cardData1'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData2'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData3'></td>
+                    </tr>
+                  </table>
+                </div>
+                <button class='deal' >Deal</button>
+                <button class='addPlayer'>Play</button>
+                <span class='total'></span>
             </div>
 
-            <div class="player" playerNum='4'>
-                Player 4 stack
-                <button class='deal' playerNum='4'>Deal</button>
+            <div class="player" playerNum='0'>
+                <span class='playerName'>no player</span>
+                <div class='handContainer'>
+                  <table>
+                    <tr>
+                      <td class='cardData1'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData2'></td>
+                    </tr>
+                    <tr>
+                      <td class='cardData3'></td>
+                    </tr>
+                  </table>
+                </div>
+                <button class='deal'>Deal</button>
+                <button class='addPlayer'>Play</button>
+                <span class='total'></span>
             </div>
 
         </div>

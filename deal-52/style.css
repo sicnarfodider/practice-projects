@@ -11,3 +11,8 @@
     margin: 30px;
     border-radius: 10px;
 }
+.handContainer{
+  border: 1px solid;
+  height: 100px;
+  width: 120px;
+}
